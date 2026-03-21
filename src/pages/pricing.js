@@ -16,99 +16,138 @@ app.innerHTML = `
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
 
         <!-- Básico -->
-        <div class="pricing-card fade-in-up text-center">
-          <h3 class="text-xl font-bold mb-2" style="color: var(--color-dark);">Básico</h3>
-          <div class="my-6">
-            <span class="pricing-amount">$5</span>
+        <div class="pricing-card fade-in-up">
+          <h3 class="text-xl font-bold mb-2 text-center" style="color: var(--color-dark);">Básico</h3>
+          <div class="my-6 text-center">
+            <span class="pricing-amount">$20</span>
             <span class="text-sm font-semibold" style="color: var(--color-primary);">USD</span>
             <span class="text-sm" style="color: var(--color-text-muted);">/ único</span>
           </div>
-          <p class="text-sm font-semibold mb-4" style="color: var(--color-text-muted);">Servicio Disponible (Elige uno)</p>
-          <ul class="text-sm space-y-3 mb-8" style="color: var(--color-text-muted);">
-            <li class="flex items-center gap-2">
-              <svg class="w-5 h-5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+          <p class="text-sm mb-4" style="color: var(--color-text-muted);">Ideal para proyectos simples o para empezar. Elige uno de estos servicios, listo para usar:</p>
+          <ul class="text-sm space-y-4 mb-8" style="color: var(--color-text-muted);">
+            <li class="flex gap-2">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
               </svg>
-              Landing Page
+              <div>
+                <strong class="block mb-1" style="color: var(--color-dark);">Landing Page profesional</strong>
+                <span class="opacity-80">Página de una sección, con tu foto, texto y enlaces. Perfecta para presentar un proyecto, negocio o perfil personal. Incluye alojamiento en subdominio tusitio.segurab.com.</span>
+              </div>
             </li>
-            <li class="flex items-center gap-2">
-              <svg class="w-5 h-5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+            <li class="flex gap-2">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
               </svg>
-              API Básica
+              <div>
+                <strong class="block mb-1" style="color: var(--color-dark);">API Básica</strong>
+                <span class="opacity-80">Endpoints simples para conectar aplicaciones o automatizar tareas. Ideal para integraciones ligeras.</span>
+              </div>
             </li>
-            <li class="flex items-center gap-2">
-              <svg class="w-5 h-5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+            <li class="flex gap-2">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
               </svg>
-              Mentoría
+              <div>
+                <strong class="block mb-1" style="color: var(--color-dark);">Mentoría (1 hora)</strong>
+                <span class="opacity-80">Sesión personalizada para resolver dudas de código, arquitectura o carrera por videollamada.</span>
+              </div>
             </li>
-            <li class="flex items-center gap-2">
-              <svg class="w-5 h-5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+            <li class="flex gap-2">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
               </svg>
-              Hosting de sitios básicos
+              <div>
+                <strong class="block mb-1" style="color: var(--color-dark);">Hosting de sitios básicos</strong>
+                <span class="opacity-80">Alojamiento para tu web estática o blog simple en nuestro servidor de alto rendimiento. SSL incluido.</span>
+              </div>
             </li>
           </ul>
-          <a href="/contact/" class="btn-outline w-full justify-center">Comenzar gratis</a>
+          <p class="text-sm font-semibold mb-6 text-center" style="color: var(--color-primary);">Tú eliges lo que más te sirva.</p>
+          <a href="/contact/" class="btn-outline w-full justify-center">Elegir Plan</a>
         </div>
 
         <!-- Profesional -->
-        <div class="pricing-card featured fade-in-up text-center" style="transition-delay: 0.1s;">
-          <h3 class="text-xl font-bold mb-2" style="color: var(--color-dark);">Profesional</h3>
-          <div class="my-6">
+        <div class="pricing-card featured fade-in-up" style="transition-delay: 0.1s;">
+          <h3 class="text-xl font-bold mb-2 text-center" style="color: var(--color-dark);">Profesional</h3>
+          <div class="my-6 text-center">
             <span class="pricing-amount">$50</span>
             <span class="text-sm font-semibold" style="color: var(--color-primary);">USD</span>
             <span class="text-sm" style="color: var(--color-text-muted);">/ único</span>
           </div>
-          <p class="text-sm font-semibold mb-4" style="color: var(--color-text-muted);">Servicio Disponible (Elige uno)</p>
-          <ul class="text-sm space-y-3 mb-8" style="color: var(--color-text-muted);">
-            <li class="flex items-center gap-2">
-              <svg class="w-5 h-5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+          <p class="text-sm mb-4" style="color: var(--color-text-muted);">Para proyectos más completos o que requieren integración. Elige uno de estos servicios, desarrollado a tu medida:</p>
+          <ul class="text-sm space-y-4 mb-8" style="color: var(--color-text-muted);">
+            <li class="flex gap-2">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
               </svg>
-              Sitio Web
+              <div>
+                <strong class="block mb-1" style="color: var(--color-dark);">Sitio Web completo</strong>
+                <span class="opacity-80">Hasta 4 secciones (Inicio, Sobre mí, etc.). Diseño personalizado, adaptable a móviles y optimizado para velocidad. Incluye alojamiento en subdominio.</span>
+              </div>
             </li>
-            <li class="flex items-center gap-2">
-              <svg class="w-5 h-5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+            <li class="flex gap-2">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
               </svg>
-              API a tus requerimientos
+              <div>
+                <strong class="block mb-1" style="color: var(--color-dark);">API a tus requerimientos</strong>
+                <span class="opacity-80">Desarrollo de una API con la lógica que necesites: autenticación, conexión a bases de datos, integración con servicios externos, etc.</span>
+              </div>
             </li>
-            <li class="flex items-center gap-2">
-              <svg class="w-5 h-5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+            <li class="flex gap-2">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
               </svg>
-              Solo hosting
+              <div>
+                <strong class="block mb-1" style="color: var(--color-dark);">Solo hosting avanzado</strong>
+                <span class="opacity-80">Alojamiento para sitios con más tráfico o necesidades especiales. Incluye configuración personalizada de servidor, SSL y soporte.</span>
+              </div>
             </li>
           </ul>
-          <a href="/contact/" class="btn-primary w-full justify-center">Comenzar</a>
+          <p class="text-sm font-semibold mb-6 text-center" style="color: var(--color-primary);">Profesionalismo y escalabilidad para tu proyecto.</p>
+          <a href="/contact/" class="btn-primary w-full justify-center">Elegir Plan</a>
         </div>
 
         <!-- Business -->
-        <div class="pricing-card fade-in-up text-center" style="transition-delay: 0.2s;">
-          <h3 class="text-xl font-bold mb-2" style="color: var(--color-dark);">Business</h3>
-          <div class="my-6">
-            <span class="pricing-amount">$800</span>
+        <div class="pricing-card fade-in-up" style="transition-delay: 0.2s;">
+          <h3 class="text-xl font-bold mb-2 text-center" style="color: var(--color-dark);">Business</h3>
+          <div class="my-6 text-center">
+            <span class="pricing-amount" style="font-size: 2.5rem;">$800</span>
             <span class="text-sm font-semibold" style="color: var(--color-primary);">USD</span>
-            <span class="text-sm" style="color: var(--color-text-muted);">/ único</span>
+            <span class="text-sm" style="color: var(--color-text-muted);"> (desde)</span>
           </div>
-          <p class="text-sm font-semibold mb-4" style="color: var(--color-text-muted);">Servicio Disponible (Elige uno)</p>
-          <ul class="text-sm space-y-3 mb-8" style="color: var(--color-text-muted);">
-            <li class="flex items-center gap-2">
-              <svg class="w-5 h-5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+          <p class="text-sm mb-4" style="color: var(--color-text-muted);">Para proyectos ambiciosos o desarrollo a medida:</p>
+          <ul class="text-sm space-y-4 mb-8" style="color: var(--color-text-muted);">
+            <li class="flex gap-2">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
               </svg>
-              Desarrollo a la Medida
+              <div>
+                <strong class="block mb-1" style="color: var(--color-dark);">Desarrollo a la medida</strong>
+                <span class="opacity-80">Cualquier idea que tengas: plataformas web, aplicaciones, integraciones complejas, automatizaciones, etc. Analizamos tu necesidad y construimos la solución perfecta.</span>
+              </div>
             </li>
-            <li class="flex items-center gap-2">
-              <svg class="w-5 h-5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+            <li class="flex gap-2">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
               </svg>
-              Servicios de Tiempo Crítico
+              <div>
+                <strong class="block mb-1" style="color: var(--color-dark);">Servicios de tiempo crítico</strong>
+                <span class="opacity-80">Soporte urgente, resolución de fallos, optimizaciones de rendimiento, migraciones, etc. Para cuando cada minuto cuenta.</span>
+              </div>
+            </li>
+            <li class="flex gap-2">
+              <svg class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: var(--color-primary);" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+              </svg>
+              <div>
+                <strong class="block mb-1" style="color: var(--color-dark);">Modernización de Stack</strong>
+                <span class="opacity-80">¿Tu sistema se siente lento o quedó obsoleto? Actualizamos tu tecnología a estándares modernos, mejorando la seguridad y el rendimiento sin detener tu operación ni afectar a tus usuarios actuales.</span>
+              </div>
             </li>
           </ul>
-          <a href="/contact/" class="btn-outline w-full justify-center">Comenzar</a>
+          <p class="text-sm font-semibold mb-6 text-center" style="color: var(--color-primary);">Cuéntanos tu idea y la hacemos realidad.</p>
+          <a href="/contact/" class="btn-outline w-full justify-center">Cotizar</a>
         </div>
 
       </div>
