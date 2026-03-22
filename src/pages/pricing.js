@@ -19,7 +19,7 @@ app.innerHTML = `
         <div class="pricing-card fade-in-up">
           <h3 class="text-xl font-bold mb-2 text-center" style="color: var(--color-dark);">Básico</h3>
           <div class="my-6 text-center">
-            <span class="pricing-amount">$20</span>
+            <span class="pricing-amount">$50</span>
             <span class="text-sm font-semibold" style="color: var(--color-primary);">USD</span>
             <span class="text-sm" style="color: var(--color-text-muted);">/ único</span>
           </div>
@@ -70,7 +70,7 @@ app.innerHTML = `
         <div class="pricing-card featured fade-in-up" style="transition-delay: 0.1s;">
           <h3 class="text-xl font-bold mb-2 text-center" style="color: var(--color-dark);">Profesional</h3>
           <div class="my-6 text-center">
-            <span class="pricing-amount">$50</span>
+            <span class="pricing-amount">$150</span>
             <span class="text-sm font-semibold" style="color: var(--color-primary);">USD</span>
             <span class="text-sm" style="color: var(--color-text-muted);">/ único</span>
           </div>

@@ -33,7 +33,7 @@ app.innerHTML = `
               </div>
               <div>
                 <p class="text-xs font-semibold uppercase tracking-wider" style="color: var(--color-text-muted);">Correo</p>
-                <a href="mailto:miguelangelsegurabravo@gmail.com" class="text-sm font-medium hover:underline" style="color: var(--color-primary);">miguelangelsegurabravo@gmail.com</a>
+                <a href="mailto:contacto@segurab.com" class="text-sm font-medium hover:underline" style="color: var(--color-primary);">contacto@segurab.com</a>
               </div>
             </div>
             <div class="flex items-center gap-4 p-4 rounded-xl" style="background: var(--color-gray-light);">

@@ -79,7 +79,7 @@ export function getFooter() {
             </a>
             <p class="text-sm mb-4" style="color: var(--color-text-muted);">Copyright © <span id="copyright-year">2026</span> - Segurab. Todos los derechos reservados.</p>
             <div class="flex items-center gap-3">
-              <a href="mailto:miguelangelsegurabravo@gmail.com" class="w-10 h-10 rounded-full flex items-center justify-center border-2 transition-all duration-200 hover:scale-110" style="border-color: var(--color-primary); color: var(--color-primary);">
+              <a href="mailto:contacto@segurab.com" class="w-10 h-10 rounded-full flex items-center justify-center border-2 transition-all duration-200 hover:scale-110" style="border-color: var(--color-primary); color: var(--color-primary);">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                 </svg>
