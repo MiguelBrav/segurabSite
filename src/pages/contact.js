@@ -39,6 +39,19 @@ app.innerHTML = `
             <div class="flex items-center gap-4 p-4 rounded-xl" style="background: var(--color-gray-light);">
               <div class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0" style="background: linear-gradient(135deg, var(--color-primary), var(--color-accent));">
                 <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </div>
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-wider" style="color: var(--color-text-muted);">Instagram</p>
+                <a href="https://www.instagram.com/_segurab/" target="_blank" rel="noopener noreferrer" class="text-sm font-medium hover:underline" style="color: var(--color-primary);">@_segurab</a>
+              </div>
+            </div>
+            <div class="flex items-center gap-4 p-4 rounded-xl" style="background: var(--color-gray-light);">
+              <div class="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0" style="background: linear-gradient(135deg, var(--color-primary), var(--color-accent));">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                   <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                 </svg>

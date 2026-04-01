@@ -6,7 +6,7 @@ const app = document.getElementById('app');
 const faqs = [
   {
     question: '¿Las actualizaciones son gratuitas?',
-    answer: '¡Sí! Todas las actualizaciones son gratuitas. Nos aseguramos de que tu producto se mantenga actualizado sin ningún costo adicional.',
+    answer: 'Las actualizaciones menores y correcciones críticas son gratuitas. Cualquier actualización que implique nuevas funcionalidades o cambios estructurales significativos será cotizada de forma independiente según los requerimientos.',
   },
   {
     question: '¿Hay soporte 24/7?',

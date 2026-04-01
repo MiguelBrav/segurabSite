@@ -69,8 +69,8 @@ export function getFooter() {
             <h4 class="text-lg font-bold mb-4" style="color: var(--color-dark);">Soporte</h4>
             <div class="flex flex-col gap-2">
               <a href="/faq/" class="footer-link">FAQ</a>
-              <a href="#" class="footer-link">Política de Privacidad</a>
-              <a href="#" class="footer-link">Términos y Condiciones</a>
+              <a href="/privacy/" class="footer-link">Política de Privacidad</a>
+              <a href="/terms/" class="footer-link">Términos y Condiciones</a>
             </div>
           </div>
           <div>
@@ -79,9 +79,16 @@ export function getFooter() {
             </a>
             <p class="text-sm mb-4" style="color: var(--color-text-muted);">Copyright © <span id="copyright-year">2026</span> - Segurab. Todos los derechos reservados.</p>
             <div class="flex items-center gap-3">
-              <a href="mailto:contacto@segurab.com" class="w-10 h-10 rounded-full flex items-center justify-center border-2 transition-all duration-200 hover:scale-110" style="border-color: var(--color-primary); color: var(--color-primary);">
+              <a href="mailto:contacto@segurab.com" class="w-10 h-10 rounded-full flex items-center justify-center border-2 transition-all duration-200 hover:scale-110" style="border-color: var(--color-primary); color: var(--color-primary);" aria-label="Email">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/_segurab/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full flex items-center justify-center border-2 transition-all duration-200 hover:scale-110" style="border-color: var(--color-primary); color: var(--color-primary);" aria-label="Instagram">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                 </svg>
               </a>
             </div>
