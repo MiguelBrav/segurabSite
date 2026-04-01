@@ -14,6 +14,8 @@ export default defineConfig({
         pricing: resolve(__dirname, 'pricing/index.html'),
         contact: resolve(__dirname, 'contact/index.html'),
         faq: resolve(__dirname, 'faq/index.html'),
+        privacy: resolve(__dirname, 'privacy/index.html'),
+        terms: resolve(__dirname, 'terms/index.html'),
         'blog-1': resolve(__dirname, 'blog/blog-1/index.html'),
         'blog-2': resolve(__dirname, 'blog/blog-2/index.html'),
         'blog-3': resolve(__dirname, 'blog/blog-3/index.html'),
