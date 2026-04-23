@@ -8,7 +8,7 @@ const blogPosts = [
     excerpt: '¡Feliz Año Nuevo 2026! Un año completamente nuevo está aquí, trayendo energía fresca, nuevos desafíos e innumerables oportunidades para crecer.',
     date: '1 Enero 2026',
     color: '#6c63ff',
-    image: '/happy-new-year-2026.png',
+    image: '/happy-new-year-2026.jpeg',
   },
   {
     id: 'blog-5',
@@ -16,7 +16,7 @@ const blogPosts = [
     excerpt: 'El mercado laboral de software no es lo que era hace unos años. Despidos, congelación de contrataciones y la automatización con IA han remodelado cómo las empresas contratan.',
     date: '15 Noviembre 2025',
     color: '#3b28cc',
-    image: '/software-dev-looking-for-a-job-.png',
+    image: '/software-dev-looking-for-a-job.jpeg',
   },
   {
     id: 'blog-4',
@@ -24,7 +24,7 @@ const blogPosts = [
     excerpt: 'La Inteligencia Artificial se está convirtiendo rápidamente en la mejor amiga del desarrollador. Desde la generación de código hasta las pruebas automatizadas.',
     date: '20 Octubre 2025',
     color: '#5b47e0',
-    image: '/software-dev-using-ia.png',
+    image: '/software-dev-using-ia.jpeg',
   },
   {
     id: 'blog-3',
@@ -32,7 +32,7 @@ const blogPosts = [
     excerpt: 'En el mundo tecnológico actual, las librerías de código abierto están en todas partes. Pero ¿qué pasa cuando una de esas librerías cambia su licencia?',
     date: '5 Septiembre 2025',
     color: '#6c63ff',
-    image: '/open-source-libraries.png',
+    image: '/open-source-libraries.jpeg',
   },
   {
     id: 'blog-2',
@@ -40,7 +40,7 @@ const blogPosts = [
     excerpt: '¡Feliz Año Nuevo 2025! Un nuevo año trae oportunidades frescas, desafíos emocionantes y la oportunidad perfecta para explorar nuevos horizontes.',
     date: '1 Enero 2025',
     color: '#3b28cc',
-    image: '/happy-new-year-2025.png',
+    image: '/happy-new-year-2025.jpeg',
   },
   {
     id: 'blog-1',

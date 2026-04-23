@@ -52,7 +52,7 @@ export const blogData = {
     title: 'Feliz Año Nuevo 2025: Abraza Nuevos Proyectos y Crecimiento',
     description: 'Celebra el nuevo año con metas frescas, proyectos emocionantes y aprendizaje continuo.',
     date: '1 Enero 2025',
-    image: '/happy-new-year-2025.png',
+    image: '/happy-new-year-2025.jpeg',
     content: `
       <p>¡Feliz Año Nuevo 2025! Un nuevo año trae oportunidades frescas, desafíos emocionantes y la oportunidad perfecta para explorar nuevos horizontes. Es un momento para reflexionar sobre nuestros logros, establecer nuevas metas y sumergirse de lleno en las posibilidades que nos esperan. Ya sea que planees aprender un nuevo lenguaje de programación, contribuir a proyectos de código abierto o enfocarte en el crecimiento personal, este es el momento perfecto para comenzar con un renovado sentido de propósito. ¡El futuro es brillante, y cada paso que das te acercará a tus sueños. Hagamos este año inolvidable!</p>
 
@@ -82,7 +82,7 @@ export const blogData = {
     title: 'El Costo Oculto del Open Source: Cuando las Librerías Cambian de Licencia',
     description: 'Comprende los riesgos de depender de librerías de código abierto y casos recientes como MediatR y AutoMapper.',
     date: '5 Septiembre 2025',
-    image: '/open-source-libraries.png',
+    image: '/open-source-libraries.jpeg',
     content: `
       <p>En el mundo tecnológico actual de ritmo acelerado, las librerías de código abierto están en todas partes. Nos ayudan a construir más rápido, lanzar antes y confiar en soluciones probadas por la comunidad. Pero ¿qué pasa cuando una de esas librerías cambia repentinamente su licencia?</p>
       <p>En SeguraB, nuestro trabajo de consultoría se enfoca en ayudar a las empresas a tomar decisiones tecnológicas sostenibles. Hoy queremos llamar la atención sobre un tema crucial: ¿qué pasa cuando tu proyecto depende de software de código abierto que se vuelve comercial de la noche a la mañana?</p>
@@ -128,7 +128,7 @@ export const blogData = {
     title: 'Usando IA en el Desarrollo de Software: ¿Impulso de Productividad o Trampa Oculta?',
     description: 'Explora cómo las herramientas de IA están cambiando la forma en que los desarrolladores escriben, depuran y mantienen código.',
     date: '20 Octubre 2025',
-    image: '/software-dev-using-ia.png',
+    image: '/software-dev-using-ia.jpeg',
     content: `
       <p>La Inteligencia Artificial se está convirtiendo rápidamente en la mejor amiga del desarrollador. Desde la generación de código hasta las pruebas automatizadas y sugerencias de arquitectura, la IA está transformando el desarrollo de software en cada capa.</p>
       <p>En SeguraB, hemos estado trabajando de cerca con equipos que adoptan herramientas de IA en sus flujos de trabajo. Pero como con cualquier tecnología poderosa, la clave está en usarla de manera consciente y estratégica.</p>
@@ -182,7 +182,7 @@ export const blogData = {
     title: 'Búsqueda de Empleo como Desarrollador de Software en 2025: ¿Qué Realmente Funciona?',
     description: 'El mercado laboral tecnológico ha cambiado. Aquí te mostramos cómo los devs modernos pueden destacar.',
     date: '15 Noviembre 2025',
-    image: '/software-dev-looking-for-a-job-.png',
+    image: '/software-dev-looking-for-a-job.jpeg',
     content: `
       <p>El mercado laboral de software no es lo que era hace unos años. Despidos, congelación de contrataciones y la automatización con IA han remodelado cómo las empresas contratan—y cómo los desarrolladores necesitan posicionarse.</p>
       <p>En SeguraB, hemos trabajado con desarrolladores y equipos en múltiples industrias. Ya seas un recién graduado, un dev de nivel medio cambiando de stack, o un senior buscando más propósito, esta publicación es para ti.</p>
@@ -255,7 +255,7 @@ export const blogData = {
     title: 'Feliz Año Nuevo 2026: Construyendo el Futuro con Propósito',
     description: 'Da la bienvenida al 2026 con nuevas metas, proyectos audaces y una mentalidad de crecimiento continuo.',
     date: '1 Enero 2026',
-    image: '/happy-new-year-2026.png',
+    image: '/happy-new-year-2026.jpeg',
     content: `
       <p>¡Feliz Año Nuevo 2026! Un año completamente nuevo está aquí, trayendo energía fresca, nuevos desafíos e innumerables oportunidades para crecer. Este es el momento perfecto para pausar, mirar atrás a lo lejos que hemos llegado y fijar nuestra vista en lo que queremos construir a continuación. Ya sea que tu enfoque sea lanzar proyectos ambiciosos, profundizar tus habilidades técnicas o crecer personal y profesionalmente, 2026 es tu lienzo. Hagámoslo contar.</p>
 
