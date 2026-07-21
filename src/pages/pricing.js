@@ -154,6 +154,81 @@ app.innerHTML = `
     </div>
   </section>
 
+  <!-- Proyectos reales -->
+  <section class="py-16 lg:py-24" style="background: linear-gradient(180deg, white 0%, #f0f2ff 100%);">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12 fade-in-up">
+        <h2 class="feature-title" style="margin-bottom: 1rem;">Lo que hemos construido</h2>
+        <p class="feature-text fade-in-up" style="max-width: 560px; margin: 0 auto; transition-delay: 0.05s;">
+          Sitios en producción para negocios reales.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+
+        <!-- Nekos Place -->
+        <div class="pricing-card fade-in-up" style="transition-delay: 0.1s; display: flex; flex-direction: column;">
+          <div style="aspect-ratio: 16/9; background: #e8ecff; border-radius: 0.75rem; overflow: hidden; margin-bottom: 1.25rem;">
+            <img
+              src="https://res.cloudinary.com/imgresd/image/upload/v1783752211/SeguraB/Site01-Nekos_ckmf31.png"
+              alt="Vista previa de Nekos Place"
+              style="width: 100%; height: 100%; object-fit: cover; display: block;"
+              loading="lazy"
+            />
+          </div>
+          <h3 class="text-xl font-bold mb-2" style="color: var(--color-dark);">Nekos Place</h3>
+          <p class="text-sm mb-6" style="color: var(--color-text-muted);">Ropa personalizada pintada a mano.</p>
+          <a href="https://nekosplace2012.segurab.com/" target="_blank" class="inline-flex items-center gap-2 font-semibold hover:underline" style="color: var(--color-primary); margin-top: auto;">
+            Ver sitio
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Yabac -->
+        <div class="pricing-card fade-in-up" style="transition-delay: 0.2s; display: flex; flex-direction: column;">
+          <div style="aspect-ratio: 16/9; background: #e8ecff; border-radius: 0.75rem; overflow: hidden; margin-bottom: 1.25rem;">
+            <img
+              src="https://res.cloudinary.com/imgresd/image/upload/v1783752210/SeguraB/Site02-Yabac_e0kfrg.png"
+              alt="Vista previa de Yabac"
+              style="width: 100%; height: 100%; object-fit: cover; display: block;"
+              loading="lazy"
+            />
+          </div>
+          <h3 class="text-xl font-bold mb-2" style="color: var(--color-dark);">Yabac</h3>
+          <p class="text-sm mb-6" style="color: var(--color-text-muted);">Cosméticos y ropa.</p>
+          <a href="https://yabac.segurab.com/" target="_blank" class="inline-flex items-center gap-2 font-semibold hover:underline" style="color: var(--color-primary); margin-top: auto;">
+            Ver sitio
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Medical Cookies -->
+        <div class="pricing-card fade-in-up" style="transition-delay: 0.3s; display: flex; flex-direction: column;">
+          <div style="aspect-ratio: 16/9; background: #e8ecff; border-radius: 0.75rem; overflow: hidden; margin-bottom: 1.25rem;">
+            <img
+              src="https://res.cloudinary.com/imgresd/image/upload/v1783752210/SeguraB/Site03-Medical_vvvgps.png"
+              alt="Vista previa de Medical Cookies"
+              style="width: 100%; height: 100%; object-fit: cover; display: block;"
+              loading="lazy"
+            />
+          </div>
+          <h3 class="text-xl font-bold mb-2" style="color: var(--color-dark);">Medical Cookies</h3>
+          <p class="text-sm mb-6" style="color: var(--color-text-muted);">Galletas personalizadas con diseños de medicina.</p>
+          <a href="https://medicalcookies.segurab.com/" target="_blank" class="inline-flex items-center gap-2 font-semibold hover:underline" style="color: var(--color-primary); margin-top: auto;">
+            Ver sitio
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <!-- Need a larger plan? -->
   <section class="py-16 lg:py-24 bg-white">
     <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
